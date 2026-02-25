@@ -1,0 +1,9 @@
+{
+  "name": "solana-sss2-typescript-sdk",
+  "version": "1.0.0",
+  "description": "SSS-2 Compliant Stablecoin with TypeScript SDK",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
