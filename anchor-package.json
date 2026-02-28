@@ -1,0 +1,44 @@
+{
+  "name": "solana-stablecoin-standard",
+  "version": "0.1.0",
+  "description": "SSS-2 Compliant Stablecoin on Solana",
+  "main": "src/sdk/stablecoin.ts",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "test:local": "anchor test --skip-local-validator",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "deploy:mainnet": "anchor deploy --provider.cluster mainnet",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\""
+  },
+  "keywords": [
+    "solana",
+    "stablecoin",
+    "blockchain",
+    "web3",
+    "crypto"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/anchor": "^0.29.0",
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.8",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.50.0",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

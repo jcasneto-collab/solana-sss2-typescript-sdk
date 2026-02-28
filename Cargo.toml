@@ -1,0 +1,17 @@
+[package]
+name = "solana-stablecoin-standard"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solana_stablecoin_standard"
+
+[dependencies]
+anchor-lang = "0.30.0"
+anchor-spl = "0.3.1"
+spl-token-2022 = "3.0.0"
+solana-program = "1.18.0"
+
+[dev-dependencies]
+anchor-client = "0.30.0"

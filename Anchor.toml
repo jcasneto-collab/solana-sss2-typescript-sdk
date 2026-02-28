@@ -1,0 +1,20 @@
+[features]
+seeds = false
+skip-lint = false
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+solana-stablecoin-standard = "Fg6PaFpoGXkYsnMp2CT5a1k9WkYc2dMkq"
+
+[programs.devnet]
+solana-stablecoin-standard = "Fg6PaFpoGXkYsnMp2CT5a1k9WkYc2dMkq"
+
+[scripts]
+test = "anchor test"
+
+[toolchain]
+[toolchain.anchor]
+anchor_version = "0.30.0"
